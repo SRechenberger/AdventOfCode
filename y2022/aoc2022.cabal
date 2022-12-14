@@ -1,0 +1,687 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.35.0.
+--
+-- see: https://github.com/sol/hpack
+
+name:           aoc2022
+version:        0.1.0.0
+synopsis:       AoC 2022 solutions
+category:       Puzzle
+author:         Sascha Rechenberger
+maintainer:     sascha.rechenberger@uni-ulm.de
+copyright:      2022 Sascha Rechenberger
+license:        BSD3
+build-type:     Simple
+
+executable 01part1
+  main-is: part1.hs
+  other-modules:
+      Paths_aoc2022
+  hs-source-dirs:
+      01
+  default-extensions:
+      TypeFamilies
+      FlexibleContexts
+      FlexibleInstances
+      DeriveGeneric
+      ScopedTypeVariables
+      MultiParamTypeClasses
+      FunctionalDependencies
+      BinaryLiterals
+      TupleSections
+  build-depends:
+      base
+    , containers
+    , lens
+    , mtl
+    , parsec
+  default-language: Haskell2010
+
+executable 01part2
+  main-is: part2.hs
+  other-modules:
+      Paths_aoc2022
+  hs-source-dirs:
+      01
+  default-extensions:
+      TypeFamilies
+      FlexibleContexts
+      FlexibleInstances
+      DeriveGeneric
+      ScopedTypeVariables
+      MultiParamTypeClasses
+      FunctionalDependencies
+      BinaryLiterals
+      TupleSections
+  build-depends:
+      base
+    , containers
+    , lens
+    , mtl
+    , parsec
+  default-language: Haskell2010
+
+executable 02part1
+  main-is: part1.hs
+  other-modules:
+      Paths_aoc2022
+  hs-source-dirs:
+      02
+  default-extensions:
+      TypeFamilies
+      FlexibleContexts
+      FlexibleInstances
+      DeriveGeneric
+      ScopedTypeVariables
+      MultiParamTypeClasses
+      FunctionalDependencies
+      BinaryLiterals
+      TupleSections
+  build-depends:
+      base
+    , containers
+    , lens
+    , mtl
+    , parsec
+  default-language: Haskell2010
+
+executable 02part2
+  main-is: part2.hs
+  other-modules:
+      Paths_aoc2022
+  hs-source-dirs:
+      02
+  default-extensions:
+      TypeFamilies
+      FlexibleContexts
+      FlexibleInstances
+      DeriveGeneric
+      ScopedTypeVariables
+      MultiParamTypeClasses
+      FunctionalDependencies
+      BinaryLiterals
+      TupleSections
+  build-depends:
+      base
+    , containers
+    , lens
+    , mtl
+    , parsec
+  default-language: Haskell2010
+
+executable 03part1
+  main-is: part1.hs
+  other-modules:
+      Paths_aoc2022
+  hs-source-dirs:
+      03
+  default-extensions:
+      TypeFamilies
+      FlexibleContexts
+      FlexibleInstances
+      DeriveGeneric
+      ScopedTypeVariables
+      MultiParamTypeClasses
+      FunctionalDependencies
+      BinaryLiterals
+      TupleSections
+  build-depends:
+      base
+    , containers
+    , lens
+    , mtl
+    , parsec
+  default-language: Haskell2010
+
+executable 03part2
+  main-is: part2.hs
+  other-modules:
+      Paths_aoc2022
+  hs-source-dirs:
+      03
+  default-extensions:
+      TypeFamilies
+      FlexibleContexts
+      FlexibleInstances
+      DeriveGeneric
+      ScopedTypeVariables
+      MultiParamTypeClasses
+      FunctionalDependencies
+      BinaryLiterals
+      TupleSections
+  build-depends:
+      base
+    , containers
+    , lens
+    , mtl
+    , parsec
+  default-language: Haskell2010
+
+executable 04part1
+  main-is: part1.hs
+  other-modules:
+      Paths_aoc2022
+  hs-source-dirs:
+      04
+  default-extensions:
+      TypeFamilies
+      FlexibleContexts
+      FlexibleInstances
+      DeriveGeneric
+      ScopedTypeVariables
+      MultiParamTypeClasses
+      FunctionalDependencies
+      BinaryLiterals
+      TupleSections
+  build-depends:
+      base
+    , containers
+    , lens
+    , mtl
+    , parsec
+  default-language: Haskell2010
+
+executable 04part2
+  main-is: part2.hs
+  other-modules:
+      Paths_aoc2022
+  hs-source-dirs:
+      04
+  default-extensions:
+      TypeFamilies
+      FlexibleContexts
+      FlexibleInstances
+      DeriveGeneric
+      ScopedTypeVariables
+      MultiParamTypeClasses
+      FunctionalDependencies
+      BinaryLiterals
+      TupleSections
+  build-depends:
+      base
+    , containers
+    , lens
+    , mtl
+    , parsec
+  default-language: Haskell2010
+
+executable 05part1
+  main-is: part1.hs
+  other-modules:
+      Paths_aoc2022
+  hs-source-dirs:
+      05
+  default-extensions:
+      TypeFamilies
+      FlexibleContexts
+      FlexibleInstances
+      DeriveGeneric
+      ScopedTypeVariables
+      MultiParamTypeClasses
+      FunctionalDependencies
+      BinaryLiterals
+      TupleSections
+  build-depends:
+      base
+    , containers
+    , lens
+    , mtl
+    , parsec
+  default-language: Haskell2010
+
+executable 05part2
+  main-is: part2.hs
+  other-modules:
+      Paths_aoc2022
+  hs-source-dirs:
+      05
+  default-extensions:
+      TypeFamilies
+      FlexibleContexts
+      FlexibleInstances
+      DeriveGeneric
+      ScopedTypeVariables
+      MultiParamTypeClasses
+      FunctionalDependencies
+      BinaryLiterals
+      TupleSections
+  build-depends:
+      base
+    , containers
+    , lens
+    , mtl
+    , parsec
+  default-language: Haskell2010
+
+executable 06part1
+  main-is: part1.hs
+  other-modules:
+      Paths_aoc2022
+  hs-source-dirs:
+      06
+  default-extensions:
+      TypeFamilies
+      FlexibleContexts
+      FlexibleInstances
+      DeriveGeneric
+      ScopedTypeVariables
+      MultiParamTypeClasses
+      FunctionalDependencies
+      BinaryLiterals
+      TupleSections
+  build-depends:
+      base
+    , containers
+    , lens
+    , mtl
+    , parsec
+  default-language: Haskell2010
+
+executable 06part2
+  main-is: part2.hs
+  other-modules:
+      Paths_aoc2022
+  hs-source-dirs:
+      06
+  default-extensions:
+      TypeFamilies
+      FlexibleContexts
+      FlexibleInstances
+      DeriveGeneric
+      ScopedTypeVariables
+      MultiParamTypeClasses
+      FunctionalDependencies
+      BinaryLiterals
+      TupleSections
+  build-depends:
+      base
+    , containers
+    , lens
+    , mtl
+    , parsec
+  default-language: Haskell2010
+
+executable 07part1
+  main-is: part1.hs
+  other-modules:
+      Paths_aoc2022
+  hs-source-dirs:
+      07
+  default-extensions:
+      TypeFamilies
+      FlexibleContexts
+      FlexibleInstances
+      DeriveGeneric
+      ScopedTypeVariables
+      MultiParamTypeClasses
+      FunctionalDependencies
+      BinaryLiterals
+      TupleSections
+  build-depends:
+      base
+    , containers
+    , lens
+    , mtl
+    , parsec
+  default-language: Haskell2010
+
+executable 07part2
+  main-is: part2.hs
+  other-modules:
+      Paths_aoc2022
+  hs-source-dirs:
+      07
+  default-extensions:
+      TypeFamilies
+      FlexibleContexts
+      FlexibleInstances
+      DeriveGeneric
+      ScopedTypeVariables
+      MultiParamTypeClasses
+      FunctionalDependencies
+      BinaryLiterals
+      TupleSections
+  build-depends:
+      base
+    , containers
+    , lens
+    , mtl
+    , parsec
+  default-language: Haskell2010
+
+executable 08part1
+  main-is: part1.hs
+  other-modules:
+      Paths_aoc2022
+  hs-source-dirs:
+      08
+  default-extensions:
+      TypeFamilies
+      FlexibleContexts
+      FlexibleInstances
+      DeriveGeneric
+      ScopedTypeVariables
+      MultiParamTypeClasses
+      FunctionalDependencies
+      BinaryLiterals
+      TupleSections
+  build-depends:
+      base
+    , containers
+    , lens
+    , mtl
+    , parsec
+  default-language: Haskell2010
+
+executable 08part2
+  main-is: part2.hs
+  other-modules:
+      Paths_aoc2022
+  hs-source-dirs:
+      08
+  default-extensions:
+      TypeFamilies
+      FlexibleContexts
+      FlexibleInstances
+      DeriveGeneric
+      ScopedTypeVariables
+      MultiParamTypeClasses
+      FunctionalDependencies
+      BinaryLiterals
+      TupleSections
+  build-depends:
+      base
+    , containers
+    , lens
+    , mtl
+    , parsec
+  default-language: Haskell2010
+
+executable 09part1
+  main-is: part1.hs
+  other-modules:
+      Paths_aoc2022
+  hs-source-dirs:
+      09
+  default-extensions:
+      TypeFamilies
+      FlexibleContexts
+      FlexibleInstances
+      DeriveGeneric
+      ScopedTypeVariables
+      MultiParamTypeClasses
+      FunctionalDependencies
+      BinaryLiterals
+      TupleSections
+  build-depends:
+      base
+    , containers
+    , lens
+    , mtl
+    , parsec
+  default-language: Haskell2010
+
+executable 09part2
+  main-is: part2.hs
+  other-modules:
+      Paths_aoc2022
+  hs-source-dirs:
+      09
+  default-extensions:
+      TypeFamilies
+      FlexibleContexts
+      FlexibleInstances
+      DeriveGeneric
+      ScopedTypeVariables
+      MultiParamTypeClasses
+      FunctionalDependencies
+      BinaryLiterals
+      TupleSections
+  build-depends:
+      base
+    , containers
+    , lens
+    , mtl
+    , parsec
+  default-language: Haskell2010
+
+executable 10part1
+  main-is: part1.hs
+  other-modules:
+      Paths_aoc2022
+  hs-source-dirs:
+      10
+  default-extensions:
+      TypeFamilies
+      FlexibleContexts
+      FlexibleInstances
+      DeriveGeneric
+      ScopedTypeVariables
+      MultiParamTypeClasses
+      FunctionalDependencies
+      BinaryLiterals
+      TupleSections
+  build-depends:
+      base
+    , containers
+    , lens
+    , mtl
+    , parsec
+  default-language: Haskell2010
+
+executable 10part2
+  main-is: part2.hs
+  other-modules:
+      Paths_aoc2022
+  hs-source-dirs:
+      10
+  default-extensions:
+      TypeFamilies
+      FlexibleContexts
+      FlexibleInstances
+      DeriveGeneric
+      ScopedTypeVariables
+      MultiParamTypeClasses
+      FunctionalDependencies
+      BinaryLiterals
+      TupleSections
+  build-depends:
+      base
+    , containers
+    , lens
+    , mtl
+    , parsec
+  default-language: Haskell2010
+
+executable 11part1
+  main-is: part1.hs
+  other-modules:
+      Paths_aoc2022
+  hs-source-dirs:
+      11
+  default-extensions:
+      TypeFamilies
+      FlexibleContexts
+      FlexibleInstances
+      DeriveGeneric
+      ScopedTypeVariables
+      MultiParamTypeClasses
+      FunctionalDependencies
+      BinaryLiterals
+      TupleSections
+  build-depends:
+      base
+    , containers
+    , lens
+    , mtl
+    , parsec
+  default-language: Haskell2010
+
+executable 11part2
+  main-is: part2.hs
+  other-modules:
+      Paths_aoc2022
+  hs-source-dirs:
+      11
+  default-extensions:
+      TypeFamilies
+      FlexibleContexts
+      FlexibleInstances
+      DeriveGeneric
+      ScopedTypeVariables
+      MultiParamTypeClasses
+      FunctionalDependencies
+      BinaryLiterals
+      TupleSections
+  build-depends:
+      base
+    , containers
+    , lens
+    , mtl
+    , parsec
+  default-language: Haskell2010
+
+executable 12part1
+  main-is: part1.hs
+  other-modules:
+      Paths_aoc2022
+  hs-source-dirs:
+      12
+  default-extensions:
+      TypeFamilies
+      FlexibleContexts
+      FlexibleInstances
+      DeriveGeneric
+      ScopedTypeVariables
+      MultiParamTypeClasses
+      FunctionalDependencies
+      BinaryLiterals
+      TupleSections
+  build-depends:
+      base
+    , containers
+    , lens
+    , mtl
+    , parsec
+  default-language: Haskell2010
+
+executable 12part2
+  main-is: part2.hs
+  other-modules:
+      Paths_aoc2022
+  hs-source-dirs:
+      12
+  default-extensions:
+      TypeFamilies
+      FlexibleContexts
+      FlexibleInstances
+      DeriveGeneric
+      ScopedTypeVariables
+      MultiParamTypeClasses
+      FunctionalDependencies
+      BinaryLiterals
+      TupleSections
+  build-depends:
+      base
+    , containers
+    , lens
+    , mtl
+    , parsec
+  default-language: Haskell2010
+
+executable 13part1
+  main-is: part1.hs
+  other-modules:
+      Paths_aoc2022
+  hs-source-dirs:
+      13
+  default-extensions:
+      TypeFamilies
+      FlexibleContexts
+      FlexibleInstances
+      DeriveGeneric
+      ScopedTypeVariables
+      MultiParamTypeClasses
+      FunctionalDependencies
+      BinaryLiterals
+      TupleSections
+  build-depends:
+      base
+    , containers
+    , lens
+    , mtl
+    , parsec
+  default-language: Haskell2010
+
+executable 13part2
+  main-is: part2.hs
+  other-modules:
+      Paths_aoc2022
+  hs-source-dirs:
+      13
+  default-extensions:
+      TypeFamilies
+      FlexibleContexts
+      FlexibleInstances
+      DeriveGeneric
+      ScopedTypeVariables
+      MultiParamTypeClasses
+      FunctionalDependencies
+      BinaryLiterals
+      TupleSections
+  build-depends:
+      base
+    , containers
+    , lens
+    , mtl
+    , parsec
+  default-language: Haskell2010
+
+executable 14part1
+  main-is: part1.hs
+  other-modules:
+      Paths_aoc2022
+  hs-source-dirs:
+      14
+  default-extensions:
+      TypeFamilies
+      FlexibleContexts
+      FlexibleInstances
+      DeriveGeneric
+      ScopedTypeVariables
+      MultiParamTypeClasses
+      FunctionalDependencies
+      BinaryLiterals
+      TupleSections
+  build-depends:
+      base
+    , containers
+    , lens
+    , mtl
+    , parsec
+  default-language: Haskell2010
+
+executable 14part2
+  main-is: part2.hs
+  other-modules:
+      Paths_aoc2022
+  hs-source-dirs:
+      14
+  default-extensions:
+      TypeFamilies
+      FlexibleContexts
+      FlexibleInstances
+      DeriveGeneric
+      ScopedTypeVariables
+      MultiParamTypeClasses
+      FunctionalDependencies
+      BinaryLiterals
+      TupleSections
+  build-depends:
+      base
+    , containers
+    , lens
+    , mtl
+    , parsec
+  default-language: Haskell2010

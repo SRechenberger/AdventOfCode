@@ -1,0 +1,128 @@
+name: aoc2022
+version: 0.1.0.0
+license: BSD3
+author: Sascha Rechenberger
+maintainer: sascha.rechenberger@uni-ulm.de
+copyright: 2022 Sascha Rechenberger
+
+synopsis: AoC 2022 solutions
+category: Puzzle
+
+dependencies:
+  - base
+  - containers
+  - mtl
+  - lens
+  - parsec
+
+
+default-extensions:
+  - TypeFamilies
+  - FlexibleContexts
+  - FlexibleInstances
+  - DeriveGeneric
+  - ScopedTypeVariables
+  - MultiParamTypeClasses
+  - FunctionalDependencies
+  - BinaryLiterals
+  - TupleSections
+
+
+executables:
+  01part1:
+    main: part1.hs
+    source-dirs: "01" 
+  01part2:
+    main: part2.hs
+    source-dirs: "01"
+
+  02part1:
+    main: part1.hs
+    source-dirs: "02" 
+  02part2:
+    main: part2.hs
+    source-dirs: "02"
+
+  03part1:
+    main: part1.hs
+    source-dirs: "03" 
+  03part2:
+    main: part2.hs
+    source-dirs: "03"
+
+  04part1:
+    main: part1.hs
+    source-dirs: "04" 
+  04part2:
+    main: part2.hs
+    source-dirs: "04"
+
+  05part1:
+    main: part1.hs
+    source-dirs: "05" 
+  05part2:
+    main: part2.hs
+    source-dirs: "05"
+
+  06part1:
+    main: part1.hs
+    source-dirs: "06" 
+  06part2:
+    main: part2.hs
+    source-dirs: "06"
+
+  07part1:
+    main: part1.hs
+    source-dirs: "07" 
+  07part2:
+    main: part2.hs
+    source-dirs: "07"
+
+  08part1:
+    main: part1.hs
+    source-dirs: "08" 
+  08part2:
+    main: part2.hs
+    source-dirs: "08"
+
+  09part1:
+    main: part1.hs
+    source-dirs: "09" 
+  09part2:
+    main: part2.hs
+    source-dirs: "09"
+
+  10part1:
+    main: part1.hs
+    source-dirs: "10" 
+  10part2:
+    main: part2.hs
+    source-dirs: "10"
+
+  11part1:
+    main: part1.hs
+    source-dirs: "11" 
+  11part2:
+    main: part2.hs
+    source-dirs: "11"
+
+  12part1:
+    main: part1.hs
+    source-dirs: "12" 
+  12part2:
+    main: part2.hs
+    source-dirs: "12"
+  
+  13part1:
+    main: part1.hs
+    source-dirs: "13" 
+  13part2:
+    main: part2.hs
+    source-dirs: "13"
+  
+  14part1:
+    main: part1.hs
+    source-dirs: "14" 
+  14part2:
+    main: part2.hs
+    source-dirs: "14"
