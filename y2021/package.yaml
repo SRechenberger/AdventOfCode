@@ -1,0 +1,44 @@
+name: aoc2021
+version: 0.1.0.0
+license: BSD3
+author: Sascha Rechenberger
+maintainer: sascha.rechenberger@uni-ulm.de
+copyright: 2022 Sascha Rechenberger
+
+synopsis: AoC 2022 solutions
+category: Puzzle
+
+dependencies:
+  - base
+  - containers
+  - mtl
+  - lens
+  - parsec
+
+
+default-extensions:
+  - TypeFamilies
+  - FlexibleContexts
+  - FlexibleInstances
+  - DeriveGeneric
+  - ScopedTypeVariables
+  - MultiParamTypeClasses
+  - FunctionalDependencies
+  - BinaryLiterals
+  - TupleSections
+
+
+executables:
+  01part1:
+    main: part1.hs
+    source-dirs: "01" 
+  01part2:
+    main: part2.hs
+    source-dirs: "01"
+  
+  02part1:
+    main: part1.hs
+    source-dirs: "02" 
+  02part2:
+    main: part2.hs
+    source-dirs: "02" 
