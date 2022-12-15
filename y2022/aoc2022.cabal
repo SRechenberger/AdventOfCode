@@ -11,10 +11,9 @@ category:       Puzzle
 author:         Sascha Rechenberger
 maintainer:     sascha.rechenberger@uni-ulm.de
 copyright:      2022 Sascha Rechenberger
-license:        BSD3
 build-type:     Simple
 
-executable 01part1
+executable y2022d01part1
   main-is: part1.hs
   other-modules:
       Paths_aoc2022
@@ -39,7 +38,7 @@ executable 01part1
     , regex-tdfa
   default-language: Haskell2010
 
-executable 01part2
+executable y2022d01part2
   main-is: part2.hs
   other-modules:
       Paths_aoc2022
@@ -64,7 +63,7 @@ executable 01part2
     , regex-tdfa
   default-language: Haskell2010
 
-executable 02part1
+executable y2022d02part1
   main-is: part1.hs
   other-modules:
       Paths_aoc2022
@@ -89,7 +88,7 @@ executable 02part1
     , regex-tdfa
   default-language: Haskell2010
 
-executable 02part2
+executable y2022d02part2
   main-is: part2.hs
   other-modules:
       Paths_aoc2022
@@ -114,7 +113,7 @@ executable 02part2
     , regex-tdfa
   default-language: Haskell2010
 
-executable 03part1
+executable y2022d03part1
   main-is: part1.hs
   other-modules:
       Paths_aoc2022
@@ -139,7 +138,7 @@ executable 03part1
     , regex-tdfa
   default-language: Haskell2010
 
-executable 03part2
+executable y2022d03part2
   main-is: part2.hs
   other-modules:
       Paths_aoc2022
@@ -164,7 +163,7 @@ executable 03part2
     , regex-tdfa
   default-language: Haskell2010
 
-executable 04part1
+executable y2022d04part1
   main-is: part1.hs
   other-modules:
       Paths_aoc2022
@@ -189,7 +188,7 @@ executable 04part1
     , regex-tdfa
   default-language: Haskell2010
 
-executable 04part2
+executable y2022d04part2
   main-is: part2.hs
   other-modules:
       Paths_aoc2022
@@ -214,7 +213,7 @@ executable 04part2
     , regex-tdfa
   default-language: Haskell2010
 
-executable 05part1
+executable y2022d05part1
   main-is: part1.hs
   other-modules:
       Paths_aoc2022
@@ -239,7 +238,7 @@ executable 05part1
     , regex-tdfa
   default-language: Haskell2010
 
-executable 05part2
+executable y2022d05part2
   main-is: part2.hs
   other-modules:
       Paths_aoc2022
@@ -264,7 +263,7 @@ executable 05part2
     , regex-tdfa
   default-language: Haskell2010
 
-executable 06part1
+executable y2022d06part1
   main-is: part1.hs
   other-modules:
       Paths_aoc2022
@@ -289,7 +288,7 @@ executable 06part1
     , regex-tdfa
   default-language: Haskell2010
 
-executable 06part2
+executable y2022d06part2
   main-is: part2.hs
   other-modules:
       Paths_aoc2022
@@ -314,7 +313,7 @@ executable 06part2
     , regex-tdfa
   default-language: Haskell2010
 
-executable 07part1
+executable y2022d07part1
   main-is: part1.hs
   other-modules:
       Paths_aoc2022
@@ -339,7 +338,7 @@ executable 07part1
     , regex-tdfa
   default-language: Haskell2010
 
-executable 07part2
+executable y2022d07part2
   main-is: part2.hs
   other-modules:
       Paths_aoc2022
@@ -364,7 +363,7 @@ executable 07part2
     , regex-tdfa
   default-language: Haskell2010
 
-executable 08part1
+executable y2022d08part1
   main-is: part1.hs
   other-modules:
       Paths_aoc2022
@@ -389,7 +388,7 @@ executable 08part1
     , regex-tdfa
   default-language: Haskell2010
 
-executable 08part2
+executable y2022d08part2
   main-is: part2.hs
   other-modules:
       Paths_aoc2022
@@ -414,7 +413,7 @@ executable 08part2
     , regex-tdfa
   default-language: Haskell2010
 
-executable 09part1
+executable y2022d09part1
   main-is: part1.hs
   other-modules:
       Paths_aoc2022
@@ -439,7 +438,7 @@ executable 09part1
     , regex-tdfa
   default-language: Haskell2010
 
-executable 09part2
+executable y2022d09part2
   main-is: part2.hs
   other-modules:
       Paths_aoc2022
@@ -464,7 +463,7 @@ executable 09part2
     , regex-tdfa
   default-language: Haskell2010
 
-executable 10part1
+executable y2022d10part1
   main-is: part1.hs
   other-modules:
       Paths_aoc2022
@@ -489,7 +488,7 @@ executable 10part1
     , regex-tdfa
   default-language: Haskell2010
 
-executable 10part2
+executable y2022d10part2
   main-is: part2.hs
   other-modules:
       Paths_aoc2022
@@ -514,7 +513,7 @@ executable 10part2
     , regex-tdfa
   default-language: Haskell2010
 
-executable 11part1
+executable y2022d11part1
   main-is: part1.hs
   other-modules:
       Paths_aoc2022
@@ -539,7 +538,7 @@ executable 11part1
     , regex-tdfa
   default-language: Haskell2010
 
-executable 11part2
+executable y2022d11part2
   main-is: part2.hs
   other-modules:
       Paths_aoc2022
@@ -564,7 +563,7 @@ executable 11part2
     , regex-tdfa
   default-language: Haskell2010
 
-executable 12part1
+executable y2022d12part1
   main-is: part1.hs
   other-modules:
       Paths_aoc2022
@@ -589,7 +588,7 @@ executable 12part1
     , regex-tdfa
   default-language: Haskell2010
 
-executable 12part2
+executable y2022d12part2
   main-is: part2.hs
   other-modules:
       Paths_aoc2022
@@ -614,7 +613,7 @@ executable 12part2
     , regex-tdfa
   default-language: Haskell2010
 
-executable 13part1
+executable y2022d13part1
   main-is: part1.hs
   other-modules:
       Paths_aoc2022
@@ -639,7 +638,7 @@ executable 13part1
     , regex-tdfa
   default-language: Haskell2010
 
-executable 13part2
+executable y2022d13part2
   main-is: part2.hs
   other-modules:
       Paths_aoc2022
@@ -664,7 +663,7 @@ executable 13part2
     , regex-tdfa
   default-language: Haskell2010
 
-executable 14part1
+executable y2022d14part1
   main-is: part1.hs
   other-modules:
       Paths_aoc2022
@@ -689,7 +688,7 @@ executable 14part1
     , regex-tdfa
   default-language: Haskell2010
 
-executable 14part2
+executable y2022d14part2
   main-is: part2.hs
   other-modules:
       Paths_aoc2022
@@ -714,7 +713,7 @@ executable 14part2
     , regex-tdfa
   default-language: Haskell2010
 
-executable 15part1
+executable y2022d15part1
   main-is: part1.hs
   other-modules:
       Paths_aoc2022
@@ -739,7 +738,7 @@ executable 15part1
     , regex-tdfa
   default-language: Haskell2010
 
-executable 15part2
+executable y2022d15part2
   main-is: part2.hs
   other-modules:
       Paths_aoc2022

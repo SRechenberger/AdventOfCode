@@ -29,16 +29,16 @@ default-extensions:
 
 
 executables:
-  01part1:
+  y2021d01part1:
     main: part1.hs
     source-dirs: "01" 
-  01part2:
+  y2021d01part2:
     main: part2.hs
     source-dirs: "01"
   
-  02part1:
+  y2021d02part1:
     main: part1.hs
     source-dirs: "02" 
-  02part2:
+  y2021d02part2:
     main: part2.hs
     source-dirs: "02" 
