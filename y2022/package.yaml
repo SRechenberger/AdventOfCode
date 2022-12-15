@@ -14,6 +14,8 @@ dependencies:
   - mtl
   - lens
   - parsec
+  - regex-tdfa
+#  - regex-tdfa-text
 
 
 default-extensions:
@@ -126,3 +128,10 @@ executables:
   14part2:
     main: part2.hs
     source-dirs: "14"
+  
+  15part1:
+    main: part1.hs
+    source-dirs: "15" 
+  15part2:
+    main: part2.hs
+    source-dirs: "15"
