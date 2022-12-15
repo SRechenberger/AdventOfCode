@@ -42,3 +42,17 @@ executables:
   y2021d02part2:
     main: part2.hs
     source-dirs: "02" 
+  
+  y2021d03part1:
+    main: part1.hs
+    source-dirs: "03" 
+  y2021d03part2:
+    main: part2.hs
+    source-dirs: "03" 
+  
+  y2021d04part1:
+    main: part1.hs
+    source-dirs: "04" 
+  y2021d04part2:
+    main: part2.hs
+    source-dirs: "04" 
