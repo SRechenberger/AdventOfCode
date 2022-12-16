@@ -762,3 +762,28 @@ executable y2022d15part2
     , parsec
     , regex-tdfa
   default-language: Haskell2010
+
+executable y2022d16part1
+  main-is: part1.hs
+  other-modules:
+      Paths_aoc2022
+  hs-source-dirs:
+      16
+  default-extensions:
+      TypeFamilies
+      FlexibleContexts
+      FlexibleInstances
+      DeriveGeneric
+      ScopedTypeVariables
+      MultiParamTypeClasses
+      FunctionalDependencies
+      BinaryLiterals
+      TupleSections
+  build-depends:
+      base
+    , containers
+    , lens
+    , mtl
+    , parsec
+    , regex-tdfa
+  default-language: Haskell2010

@@ -134,3 +134,7 @@ executables:
   y2022d15part2:
     main: part2.hs
     source-dirs: "15"
+  
+  y2022d16part1:
+    main: part1.hs
+    source-dirs: "16" 
